@@ -30,10 +30,10 @@ function johnLennonFacts(arrFacts){
 function iLoveTheBeatles(num){
 var tempArr = [];
 
-do
+do{
   tempArr.push('I love the Beatles!');
   num++;
-while(num < 15);
+}while(num < 15);
 
 return tempArr;
 }//end function
