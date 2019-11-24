@@ -28,6 +28,12 @@ function johnLennonFacts(arrFacts){
 }//end function
 
 function iLoveTheBeatles(num){
+var tempArr = [];
 
+do
+  tempArr.push('I love the Beatles!')
+  num++;
+while(num < 15);
 
+return tempArr;
 }//end function
